@@ -329,6 +329,7 @@ section{
     z-index: 99999 !important; 
     /* background-color: tomato; */
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -372,6 +373,19 @@ section{
     position: relative;
 }
 
+.sec{
+    top: 20%;
+    left: 70%;
+}
+.imgsec{
+    width: 50%;
+    top: 20%;
+    left: 20%;
+}
+.imgthird{
+    top: 60%;
+    left: 20%;
+}
 
 
 
@@ -571,3 +585,7 @@ section{
     
    }
   
+/* <-- locomotive-thumb -->*/
+.c-scrollbar_thumb{
+    background-color: #830707;
+}
